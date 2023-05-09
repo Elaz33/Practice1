@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        div {
+            background-color: blue;
+            width: 100%;
+
+            border: solid;
+
+            text-align: center;
+
+        }
+
+        .arrow {
+            border: solid black;
+            border-width: 0 5px 5px 0;
+            display: inline-block;
+            padding: 3px;
+        }
+
+        #theRight {
+            text-align: right;
+            margin-right: 100px;
+            float: right;
+            margin-top: 200px;
+        }
+
+        .right {
+
+            /* float: right;
+    margin-top: 210px; */
+            cursor: pointer;
+            transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+        }
+
+        #theLeft {
+            text-align: left;
+            margin-left: 100px;
+
+            float: left;
+            margin-top: 205px;
+        }
+
+        .left {
+
+            cursor: pointer;
+            transform: rotate(135deg);
+            -webkit-transform: rotate(135deg);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The Joys of the wilderness</h1>
+
+    <div>
+        <!-- <nav class="arrow up" style="background-color: black;"></nav>
+        <nav class="arrow right" style="background-color: black;"></nav> -->
+        <p id="theRight"> <i class="arrow right"></i></p>
+
+        <img src="imag7.jpg" width="75%" height="500" alt="">
+        <p id="theLeft"> <i class="arrow left"></i></p>
+        <!-- <nav class="arrow left" style="background-color:black"></nav>
+        <nav class="arrow down" style="background-color: black;"></nav> -->
+    </div>
+
+    <h2>5/8</h2>
+</body>
+
+</html>
